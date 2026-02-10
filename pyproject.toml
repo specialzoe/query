@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 82.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "querymc"
+version = "1.0.0"
+authors = [
+  { name="specialzoe", email="fainda@protonmail.com" },
+]
+description = "An implementation of the minecraft java (1.7+) query protocol"
+readme = "README.md"
+requires-python = ">=3.14"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Unlicense"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/specialzoe/query"
+Issues = "https://github.com/specialzoe/query/issues"

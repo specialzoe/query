@@ -1,6 +1,5 @@
 import socket
 
-
 class Query:
     """
     Interface for the minecraft query protocol
